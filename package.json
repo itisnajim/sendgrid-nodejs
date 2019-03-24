@@ -1,0 +1,35 @@
+{
+  "name": "sendgrid-nodejs",
+  "version": "1.0.0",
+  "description": "Example of using nodejs to send emails via https://sendgrid.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itisnajim/sendgrid-nodejs.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "SMTP",
+    "email",
+    "rest",
+    "restapi",
+    "webapi",
+    "api"
+  ],
+  "author": "itisnajim@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itisnajim/sendgrid-nodejs/issues"
+  },
+  "homepage": "https://github.com/itisnajim/sendgrid-nodejs#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
